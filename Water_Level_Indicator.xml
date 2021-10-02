@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>G:\eSim-Workspace\Water_Level_Indicator\Water_Level_Indicator.sch</source>
+    <date>04/10/20 00:38:10</date>
+    <tool>Eeschema 4.0.7</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Water_Level_Indicator.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="v4">
+      <value>pulse</value>
+      <footprint>R1</footprint>
+      <libsource lib="eSim_Sources" part="pulse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7533</tstamp>
+    </comp>
+    <comp ref="v3">
+      <value>pulse</value>
+      <footprint>R1</footprint>
+      <libsource lib="eSim_Sources" part="pulse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7539</tstamp>
+    </comp>
+    <comp ref="v2">
+      <value>pulse</value>
+      <footprint>R1</footprint>
+      <libsource lib="eSim_Sources" part="pulse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F753F</tstamp>
+    </comp>
+    <comp ref="v1">
+      <value>pulse</value>
+      <footprint>R1</footprint>
+      <libsource lib="eSim_Sources" part="pulse"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7557</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>2.2k</value>
+      <libsource lib="eSim_Devices" part="resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7563</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>2.2k</value>
+      <libsource lib="eSim_Devices" part="resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7569</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>2.2k</value>
+      <libsource lib="eSim_Devices" part="resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F756F</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>2.2k</value>
+      <libsource lib="eSim_Devices" part="resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7575</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>BC548</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="transistors" part="BC548"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F757B</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>BC548</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="transistors" part="BC548"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7581</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>BC548</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="transistors" part="BC548"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F758D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <libsource lib="eSim_Devices" part="resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7593</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <libsource lib="eSim_Devices" part="resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7599</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>100</value>
+      <libsource lib="eSim_Devices" part="resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F759F</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>eSim_LED</value>
+      <libsource lib="eSim_Devices" part="eSim_LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F75A5</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>eSim_LED</value>
+      <libsource lib="eSim_Devices" part="eSim_LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F75AB</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <libsource lib="eSim_Devices" part="resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F75B7</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>BC548</value>
+      <footprint>TO_SOT_Packages_THT:TO-92_Molded_Narrow</footprint>
+      <libsource lib="transistors" part="BC548"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F7587</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>eSim_LED</value>
+      <libsource lib="eSim_Devices" part="eSim_LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E911CB7</tstamp>
+    </comp>
+    <comp ref="v5">
+      <value>DC</value>
+      <footprint>R1</footprint>
+      <libsource lib="eSim_Sources" part="DC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5E8F75C3</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="transistors" part="BC547">
+      <aliases>
+        <alias>BC546</alias>
+        <alias>BC548</alias>
+        <alias>BC549</alias>
+        <alias>BC550</alias>
+        <alias>BC337</alias>
+        <alias>BC338</alias>
+      </aliases>
+      <description>45V Vce, 0.1A Ic, NPN, Small Signal Transistor, TO-92</description>
+      <docs>http://www.fairchildsemi.com/ds/BC/BC547.pdf</docs>
+      <footprints>
+        <fp>TO?92*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC547</field>
+        <field name="Footprint">TO_SOT_Packages_THT:TO-92_Molded_Narrow</field>
+      </fields>
+      <pins>
+        <pin num="1" name="C" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Sources" part="DC">
+      <footprints>
+        <fp>1_pin</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">v</field>
+        <field name="Value">DC</field>
+        <field name="Footprint">R1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="power_out"/>
+        <pin num="2" name="-" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Devices" part="eSim_LED">
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">eSim_LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Devices" part="eSim_R">
+      <aliases>
+        <alias>resistor</alias>
+      </aliases>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">eSim_R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="eSim_Sources" part="pulse">
+      <footprints>
+        <fp>1_pin</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">v</field>
+        <field name="Value">pulse</field>
+        <field name="Footprint">R1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="eSim_Sources">
+      <uri>C:\FOSSEE\KiCad\share\kicad\library\eSim_Sources.lib</uri>
+    </library>
+    <library logical="eSim_Devices">
+      <uri>C:\FOSSEE\KiCad\share\kicad\library\eSim_Devices.lib</uri>
+    </library>
+    <library logical="transistors">
+      <uri>C:\FOSSEE\KiCad\share\kicad\library\transistors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(Q1-Pad2)">
+      <node ref="Q1" pin="2"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="2" name="Net-(Q4-Pad2)">
+      <node ref="Q4" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="3" name="Net-(Q2-Pad2)">
+      <node ref="R3" pin="2"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q2-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="5" name="Net-(Q1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(Q3-Pad2)">
+      <node ref="Q3" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="7" name="GND">
+      <node ref="Q3" pin="3"/>
+      <node ref="v4" pin="2"/>
+      <node ref="v5" pin="2"/>
+      <node ref="v3" pin="2"/>
+      <node ref="v2" pin="2"/>
+      <node ref="Q4" pin="3"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="v1" pin="2"/>
+    </net>
+    <net code="8" name="Net-(D3-Pad2)">
+      <node ref="D3" pin="2"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R1-Pad1)">
+      <node ref="v1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="10" name="Net-(Q3-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="Q3" pin="1"/>
+    </net>
+    <net code="11" name="Net-(Q4-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="Q4" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D2-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="D2" pin="2"/>
+    </net>
+    <net code="13" name="Net-(D1-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="D1" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R3-Pad1)">
+      <node ref="v2" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="15" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="v5" pin="1"/>
+      <node ref="D3" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="D2" pin="1"/>
+    </net>
+    <net code="16" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1"/>
+      <node ref="v3" pin="1"/>
+    </net>
+    <net code="17" name="Net-(R7-Pad1)">
+      <node ref="v4" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+  </nets>
+</export>

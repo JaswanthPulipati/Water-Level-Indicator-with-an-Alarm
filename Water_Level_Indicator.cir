@@ -1,0 +1,40 @@
+* G:\eSim-Workspace\Water_Level_Indicator\Water_Level_Indicator.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 04/25/20 19:26:57
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+v4  v4 GND pulse		
+v2  v2 GND pulse		
+v1  v1 GND pulse		
+R1  v1 Net-_Q1-Pad2_ 2.2k		
+R3  v2 Net-_Q2-Pad2_ 2.2k		
+R5  v3 Net-_Q3-Pad2_ 2.2k		
+R7  v4 Net-_Q4-Pad2_ 2.2k		
+R2  Net-_Q1-Pad1_ Net-_D1-Pad2_ 100		
+R4  Net-_Q2-Pad1_ Net-_D2-Pad2_ 100		
+R6  Net-_Q3-Pad1_ Net-_D3-Pad2_ 100		
+R8  Net-_Q4-Pad1_ Net-_D4-Pad2_ 100		
+v5  Net-_D1-Pad1_ GND DC		
+v3  v3 GND pulse		
+U1  v1 plot_v1		
+U2  v2 plot_v1		
+U3  v3 plot_v1		
+U4  v4 plot_v1		
+D1  Net-_D1-Pad1_ Net-_D1-Pad2_ eSim_LED		
+D2  Net-_D1-Pad1_ Net-_D2-Pad2_ eSim_LED		
+D3  Net-_D1-Pad1_ Net-_D3-Pad2_ eSim_LED		
+Q3  Net-_Q3-Pad1_ Net-_Q3-Pad2_ GND BC547		
+Q2  Net-_Q2-Pad1_ Net-_Q2-Pad2_ GND BC547		
+Q1  Net-_Q1-Pad1_ Net-_Q1-Pad2_ GND BC547		
+U7  Net-_D1-Pad1_ Net-_D3-Pad2_ plot_i2		
+U6  Net-_D1-Pad1_ Net-_D2-Pad2_ plot_i2		
+U5  Net-_D1-Pad1_ Net-_D1-Pad2_ plot_i2		
+Q4  Net-_Q4-Pad1_ Net-_Q4-Pad2_ GND BC547		
+U9  Net-_D4-Pad2_ Net-_Q4-Pad1_ plot_i2		
+D4  Net-_D1-Pad1_ Net-_D4-Pad2_ eSim_LED		
+U8  Net-_D1-Pad1_ Net-_D4-Pad2_ plot_i2		
+
+.end

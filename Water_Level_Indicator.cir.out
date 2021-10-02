@@ -1,0 +1,57 @@
+* g:\esim-workspace\water_level_indicator\water_level_indicator.cir
+
+.include BC547B.lib
+.include LED.lib
+v4  v4 gnd pulse(0 1 7 1m 1m 10 2)
+v2  v2 gnd pulse(0 1 3 1m 1m 10 2)
+v1  v1 gnd pulse(0 1 1 1m 1m 10 2s)
+r1  v1 net-_q1-pad2_ 2.2k
+r3  v2 net-_q2-pad2_ 2.2k
+r5  v3 net-_q3-pad2_ 2.2k
+r7  v4 net-_q4-pad2_ 2.2k
+r2  net-_q1-pad1_ net-_d1-pad2_ 100
+r4  net-_q2-pad1_ net-_d2-pad2_ 100
+r6  net-_q3-pad1_ net-_d3-pad2_ 100
+r8  net-_q4-pad1_ net-_d4-pad2_ 100
+v5 net-_d1-pad1_ gnd  dc 5v
+v3  v3 gnd pulse(0 1 5 1m 1m 10 2)
+* u1  v1 plot_v1
+* u2  v2 plot_v1
+* u3  v3 plot_v1
+* u4  v4 plot_v1
+d1 net-_d1-pad1_ net-_d1-pad2_ LED
+d2 net-_d1-pad1_ net-_d2-pad2_ LED
+d3 net-_d1-pad1_ net-_d3-pad2_ LED
+q3 net-_q3-pad1_ net-_q3-pad2_ gnd BC547B
+q2 net-_q2-pad1_ net-_q2-pad2_ gnd BC547B
+q1 net-_q1-pad1_ net-_q1-pad2_ gnd BC547B
+* u7  net-_d1-pad1_ net-_d3-pad2_ plot_i2
+* u6  net-_d1-pad1_ net-_d2-pad2_ plot_i2
+* u5  net-_d1-pad1_ net-_d1-pad2_ plot_i2
+q4 net-_q4-pad1_ net-_q4-pad2_ gnd BC547B
+* u9  net-_d4-pad2_ net-_q4-pad1_ plot_i2
+d4 net-_d1-pad1_ net-_d4-pad2_ LED
+* u8  net-_d1-pad1_ net-_d4-pad2_ plot_i2
+v_u7 net-_d1-pad1_ net-_d3-pad2_ 0
+v_u6 net-_d1-pad1_ net-_d2-pad2_ 0
+v_u5 net-_d1-pad1_ net-_d1-pad2_ 0
+v_u9 net-_d4-pad2_ net-_q4-pad1_ 0
+v_u8 net-_d1-pad1_ net-_d4-pad2_ 0
+.tran 1e-00 10e-00 0e-00
+
+* Control Statements 
+.control
+run
+print allv > plot_data_v.txt
+print alli > plot_data_i.txt
+plot v(v1)
+plot v(v2)
+plot v(v3)
+plot v(v4)
+plot i(v_u7)
+plot i(v_u6)
+plot i(v_u5)
+plot i(v_u9)
+plot i(v_u8)
+.endc
+.end
